@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="planner.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+  </head>
+  <body>
+    <header>
+        <img src="https://drncvpyikhjv3.cloudfront.net/sites/126/2015/07/18151648/page-header-mountains.jpg" id="head">
+        <!--NAVIGATION-->
+        <ul id="nav_bar">
+          <li class="nav_data"><a href="index.html">Home</a></li>
+          <li class="nav_data"><a href="plannner.html">Plan a Hike!</a></li>
+        </ul>
+      </header>
+
+        <div id="ul_div">
+          <a href="#" onclick="self.close();"><img src="https://www.freeiconspng.com/thumbs/close-icon/black-close-icon-3.png" class="exit"></a
+
+      <article>
+          <!--SECTION FOR CRUD ACTION FORM-->
+        <div class="mainWrapper">
+          <h1>Hike Planner</h1>
+  
+          <form>
+            <div class="form-group">
+              <label class="label">File name: </label>
+              <input id="fileName" type="text" class="form-control" placeholder="E.g Fuji.txt">
+            </div>
+  
+            <br><br>
+  
+            <div class="form-group">
+              <label class="label">Content: </label>
+              <textarea id="fileContents" class="form-control" rows="3" placeholder="E.g I like the scenary of Mt.Fuji"></textarea>
+            </div>
+          </form>
+          <!--BUTTON TO PERFORM CRUD ACTION-->
+            <button id="btnCreate" class="btn btn-default">Create</button>
+            <button id="btnRead" class="btn btn-default">Read</button>
+            <button id="btnUpdate" class="btn btn-default">Update</button>
+            <button id="btnDelete" class="btn btn-default">Delete</button>    
+        </div>
+      </article>
+    
+    </div>
+
+    <script src="planner.js">
+      
+      
+    </script>
+  </body>
+</html>
